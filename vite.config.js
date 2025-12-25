@@ -9,5 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/DecimalTv/',
+  base: '/decimalTv/',
 })
