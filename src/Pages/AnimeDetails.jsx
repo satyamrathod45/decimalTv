@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const AnimeDetails = () => {
   const { id } = useParams();
   const [animedetails, setAnimedetails] = useState(null);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   const getAnime = async () => {
     try {
@@ -24,6 +26,7 @@ const AnimeDetails = () => {
         year: data.year,
         status: data.status,
         studio: data.studios?.[0]?.name || "Unknown",
+        trailer: data.trailer.embed_url
       };
 
       setAnimedetails(animeData);
@@ -95,7 +98,9 @@ const AnimeDetails = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <button className="px-6 py-3 rounded-lg bg-green-500 text-black font-semibold hover:bg-green-400 transition">
+          <button className="px-6 py-3 rounded-lg bg-green-500 text-black font-semibold hover:bg-green-400 transition"
+          onClick={() => navigate(`/episode/${animedetails.id}`)}
+          >
             ▶ Watch
           </button>
 

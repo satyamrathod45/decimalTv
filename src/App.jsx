@@ -10,6 +10,7 @@ import Footer from './Components/Footer'
 import Trending from './Pages/Trending'
 import TopRated from './Pages/TopRated'
 import Profile from './Pages/Profile'
+import WatchAnime from './Pages/WatchAnime'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/trending" element={<Trending />} />
         <Route path="/top-rated" element={<TopRated />} />
         <Route path='/profile' element={<Profile />} />
+        <Route path='/episode/:id' element={<WatchAnime /> } />
       </Routes></main>
 <div>
       <Footer className="absolute bottom-0 left-0"/>
