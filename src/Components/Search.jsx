@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HiOutlineSearch } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
+import SearchBanner from '../assets/searchBanner.png'
 
 const Search = () => {
   const [query, setQuery] = useState("");
@@ -17,7 +18,7 @@ const Search = () => {
   return (
     <div className="relative w-full sm:h-[60vh] h-[30vh] overflow-hidden rounded-3xl">
       <img
-        src="/images/searchBanner.png"
+        src={SearchBanner}
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-black/60"></div>
