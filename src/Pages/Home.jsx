@@ -171,7 +171,7 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row gap-3">
             <button className="px-6 py-3 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 transition">
-              ▶ Watch Trailer
+              ▶ Watch
             </button>
             <button className="px-6 py-3 bg-white/10 rounded-lg hover:bg-white/20 transition">
               + My List

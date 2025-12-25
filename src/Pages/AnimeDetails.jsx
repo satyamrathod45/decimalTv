@@ -72,7 +72,7 @@ const AnimeDetails = () => {
         <img
           src={animedetails.imageUrl}
 
-          
+
           alt="Poster"
           className="w-full h-full object-cover md:block"
         />
@@ -96,7 +96,7 @@ const AnimeDetails = () => {
 
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <button className="px-6 py-3 rounded-lg bg-green-500 text-black font-semibold hover:bg-green-400 transition">
-            ▶ Watch Trailer
+            ▶ Watch
           </button>
 
           <button className="px-6 py-3 rounded-lg bg-white/10 hover:bg-white/20 transition">
