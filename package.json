@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://satyamrathod45.github.io/DecimalTv",
 
+   "homepage": "https://satyamrathod45.github.io/DecimalTv",
 
   "scripts": {
     "dev": "vite",

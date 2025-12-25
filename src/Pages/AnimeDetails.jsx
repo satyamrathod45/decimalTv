@@ -71,6 +71,8 @@ const AnimeDetails = () => {
       <div className="sm:min-w-[130px] w-32 sm:w-[220px] rounded-xl overflow-hidden shadow-xl">
         <img
           src={animedetails.imageUrl}
+
+          
           alt="Poster"
           className="w-full h-full object-cover md:block"
         />
