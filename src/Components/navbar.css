@@ -1,0 +1,35 @@
+a{
+    position: relative;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 2rem;
+    background-color: green;
+    transition: all 100ms;
+}
+a:hover::before {
+    width: 100%;
+}
+
+.mobileLinks {
+    position: absolute;
+    background-color: #0c0f14;
+    min-width: 200px;
+    top: 100%;
+    left: -200px;
+    transition: all 100ms;
+}
+
+.showMenu {
+    left: 0;
+
+}
