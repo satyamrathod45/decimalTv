@@ -8,6 +8,7 @@ It focuses on clean UI/UX, smooth navigation, and real-world frontend architectu
 ## 🚀 Features
 
 - 🎥 **Dynamic Hero Section**
+
   - Auto-switching featured anime (One Piece, Naruto, Spy×Family)
   - Background video on desktop with image fallback on mobile
   - Poster, rating, and description overlay
