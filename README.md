@@ -1,4 +1,4 @@
-# 🎬 DecimalTv — Anime Streaming UI (React)
+# 🎬 DecimalTv — Anime Streaming UI (React) 
 
 DecimalTv is a modern, responsive anime streaming web application inspired by popular OTT platforms.  
 It focuses on clean UI/UX, smooth navigation, and real-world frontend architecture using React.
